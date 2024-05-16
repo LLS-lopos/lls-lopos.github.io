@@ -1,0 +1,14 @@
+---
+titre: Staff
+---
+<h1>{{ page.titre }}</h1>
+
+<ul>
+  {% for auteur in site.authors %}
+    <li>
+      <h2><a href="{{ auteur.url }}">{{ auteur.nom }}</a></h2>
+      <h3>Rôle: {{ auteur.position }}</h3>
+      <p>{{ auteur.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,35 @@
+/* fichier spéciallemnt créer pour géer l'affichage des bouton personnaliser */
+.bouton1 {
+    display: inline-block;
+    background-color: #e79110;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+  
+.bouton1:hover {
+    background-color: #d86464;
+}
+
+.bouton1:focus {
+    background-color: green;
+}
+
+.bouton2 {
+    display: inline-table;
+    background-color: rgb(59, 164, 250);
+    color: rgb(217, 4, 224);
+    padding: 5px 5px;
+    border-radius: 8px;
+    transform-box: fill-box;
+}
+
+.bouton2:hover {
+    background-color: gray;
+}
+
+.bouton2:focus {
+    background-color: blue;
+}

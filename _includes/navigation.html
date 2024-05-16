@@ -1,0 +1,7 @@
+<nav>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.lien }}" {% if page.url == item.lien %}{% endif %}class="{{ item.classe }}">
+        {{ item.nom }}
+    </a>
+    {% endfor %}
+</nav>

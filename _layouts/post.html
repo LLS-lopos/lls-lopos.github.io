@@ -1,0 +1,13 @@
+---
+---
+<!DOCTYPE html>
+<h1>{{ page.titre }}</h1>
+<p>
+    {{ page.date | data_to_string }}
+    {% assign auteur = site.authors | where: 'short_name', page.auteur | first %}
+    {% if auteur %}
+      - <a href="{{ auteur.url }}">{{ auteur.nom }}</a>
+    {% endif %}
+</p>
+
+{{ content }}

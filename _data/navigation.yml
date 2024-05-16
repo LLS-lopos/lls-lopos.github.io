@@ -1,0 +1,15 @@
+- nom: Accueil
+  lien: /
+  classe: bouton1
+- nom: sujet
+  lien:
+  classe: bouton1
+- nom: blog
+  lien: /blog.html
+  classe: bouton1
+- nom: équipe
+  lien: /staff.html
+  classe: bouton1
+- nom: a Propos
+  lien: /aProposDe.html
+  classe: bouton1
