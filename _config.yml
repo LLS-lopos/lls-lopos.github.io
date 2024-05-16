@@ -24,5 +24,3 @@ defaults:
 # pour tout les fichiers à ne pas construire (non-build)
 exclude:
   - README.md
-  - assets/video/STK_arrange.mp4
-  - assets/video/SUKUNA_EST_UN_LACOSTE_TN!.mp4
