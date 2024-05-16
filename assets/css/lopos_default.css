@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: #e79110;
+    background-color: beige;
+    padding: 1px 1px;
+}
+
+a {
+    color: purple;
+}
+
+h3 {
+    color: rgb(5, 196, 107);
+}
+
+video {
+    color: skyblue;
+    text-align: center;
+}
+
+.test {
+    text-align: center;
+    background-color: gray;
+    padding: 10px 10px;
+}

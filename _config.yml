@@ -1,0 +1,28 @@
+logo: /assets/images/lopos_icon.svg
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - 
+    scope:
+      path: "authors"
+    values:
+      layout: "auteur"
+  - 
+    scope:
+      path: "posts"
+    values:
+      layout: "post"
+  - 
+    scope:
+      path: "" # une chaîne vide signifie tous les fichiers du projet
+    values:
+      layout: "default"
+
+# pour tout les fichiers à ne pas construire (non-build)
+exclude:
+  - README.md
+  - assets/video/STK_arrange.mp4
+  - assets/video/SUKUNA_EST_UN_LACOSTE_TN!.mp4
