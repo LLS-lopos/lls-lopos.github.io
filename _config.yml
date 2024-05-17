@@ -1,4 +1,5 @@
 logo: /assets/images/lopos_icon.svg
+base_path: /_site
 
 collections:
   authors:
