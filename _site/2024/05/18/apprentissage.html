@@ -1,26 +1,29 @@
----
----
 <!DOCTYPE html>
 <html>
-  <h1>{{ page.titre }}</h1>
+  <h1>Apprentissage</h1>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.titre }}</title>
+    <title>Apprentissage</title>
     <link rel="stylesheet" href="/assets/css/lopos_default.css">
     <link rel="stylesheet" href="/assets/css/lopos_bouton.css">
     <link rel="stylesheet" href="/assets/css/lopos_image.css">
   </head>
   <body>
     <p>
-      {{ page.date | data_to_string }}
-      {% assign auteur = site.authors | where: 'short_name', page.auteur | first %}
-      {% if auteur %}
-        - <a href="{{ auteur.url }}">par {{ auteur.nom }}</a>
-      {% endif %}
+      2024-05-18 10:34:00 -0400
+      
+      
+        - <a href="/authors/LLS.html">par LLS</a>
+      
     </p>
   </body>
 
-  {{ content }}
+  <ul>
+  <li>optimisation des “layout”</li>
+  <li>initiation à la création et mise en place de CSS</li>
+  <li>initiation au déploiement de site sur réseau</li>
+</ul>
+
 
   <div>
     <a href="/blog.html" class="bouton1"><strong>Retour Blog</strong></a>

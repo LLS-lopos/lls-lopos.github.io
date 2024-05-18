@@ -13,12 +13,6 @@ h3 {
     color: rgb(5, 196, 107);
 }
 
-.test {
-    text-align: center;
-    background-color: gray;
-    padding: 10px 10px;
-}
-
 body {
     background-color: rgba(177, 38, 14, 0.75);
 }
@@ -35,4 +29,9 @@ code {
 p {
     text-align: center;
     color: white;
+}
+
+div {
+    background-position: bottom;
+    background: fixed;
 }

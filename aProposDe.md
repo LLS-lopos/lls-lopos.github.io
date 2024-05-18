@@ -22,4 +22,4 @@ print(a)
 return Salutation à vous ;)
 ```
 
-[**Accueil**](/){:.bouton2}
+[**Retour Accueil**](/){:.bouton2}
