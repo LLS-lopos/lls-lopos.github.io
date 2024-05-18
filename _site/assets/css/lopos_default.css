@@ -13,17 +13,25 @@ h3 {
     color: rgb(5, 196, 107);
 }
 
-video {
-    color: skyblue;
-    text-align: center;
-}
-
-.test {
-    text-align: center;
-    background-color: gray;
-    padding: 10px 10px;
-}
-
 body {
-    background-color: rgb(211, 182, 17);
+    background-color: rgba(177, 38, 14, 0.75);
+}
+
+header {
+    background-color: aqua;
+    display: block;
+}
+
+code {
+    background-color: rgba(20, 20, 20, 0.80);
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+div {
+    background-position: bottom;
+    background: fixed;
 }

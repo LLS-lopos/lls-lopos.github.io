@@ -1,13 +1,28 @@
 ---
 ---
 <!DOCTYPE html>
-<h1>{{ page.titre }}</h1>
-<p>
-    {{ page.date | data_to_string }}
-    {% assign auteur = site.authors | where: 'short_name', page.auteur | first %}
-    {% if auteur %}
-      - <a href="{{ auteur.url }}">{{ auteur.nom }}</a>
-    {% endif %}
-</p>
+<html>
+  <h1>{{ page.titre }}</h1>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.titre }}</title>
+    <link rel="stylesheet" href="/assets/css/lopos_default.css">
+    <link rel="stylesheet" href="/assets/css/lopos_bouton.css">
+    <link rel="stylesheet" href="/assets/css/lopos_image.css">
+  </head>
+  <body>
+    <p>
+      {{ page.date | data_to_string }}
+      {% assign auteur = site.authors | where: 'short_name', page.auteur | first %}
+      {% if auteur %}
+        - <a href="{{ auteur.url }}">par {{ auteur.nom }}</a>
+      {% endif %}
+    </p>
+  </body>
 
-{{ content }}
+  {{ content }}
+
+  <div>
+    <a href="/blog.html" class="bouton1"><strong>Retour Blog</strong></a>
+  </div>
+</html>

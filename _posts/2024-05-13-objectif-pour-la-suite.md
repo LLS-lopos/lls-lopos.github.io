@@ -1,4 +1,5 @@
 ---
+layout: post
 titre: Objectif pour la suite
 date: 2024-05-13 20:19
 auteur: LLS

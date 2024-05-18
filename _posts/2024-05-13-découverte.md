@@ -1,4 +1,5 @@
 ---
+layout: post
 titre: Découverte
 date: 2024-05-13 19:48
 auteur: LLS

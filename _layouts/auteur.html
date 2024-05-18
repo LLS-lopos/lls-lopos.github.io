@@ -1,16 +1,27 @@
 ---
 ---
 <!DOCTYPE html>
-<h1>{{ page.nom }}</h1>
-<h2>{{ page.position }}</h2>
+<html>
+  <h1>{{ page.nom }}</h1>
+  <h2>{{ page.position }}</h2>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.titre }}</title>
+    <link rel="stylesheet" href="/assets/css/lopos_default.css">
+    <link rel="stylesheet" href="/assets/css/lopos_bouton.css">
+    <link rel="stylesheet" href="/assets/css/lopos_image.css">
+  </head>
 
-{{ content }}
+  {{ content }}
 
-<h2>Posts</h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'auteur', page.short_name %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ post.url }}">{{ post.titre }}</a></li>
-  {% endfor %}
-</ul>
-
+  <h2>Posts</h2>
+  <ul>
+    {% assign filtered_posts = site.posts | where: 'auteur', page.short_name %}
+    {% for post in filtered_posts %}
+      <li><a href="{{ post.url }}">{{ post.titre }}</a></li>
+    {% endfor %}
+  </ul>
+  <div>
+    <a href="/staff.html" class="bouton1"><strong>Retour équipe</strong></a>
+  </div>
+</html>
