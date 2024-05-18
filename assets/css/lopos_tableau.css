@@ -1,0 +1,14 @@
+table {
+    background-color: rgba(0, 0, 0, 0.90);
+    border-radius: 12px;
+    padding: 10px;
+    column-fill: auto;
+}
+
+th {
+    color: red;
+}
+
+tbody {
+    color: greenyellow;
+}

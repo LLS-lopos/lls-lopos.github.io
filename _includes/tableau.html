@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <tr>
+            {% for item in site.data.{{ include.id }} %}
+            <th style="text-align: center">{{ item.colone }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th></th>
+        </tr>
+    </tbody>
+</table>
