@@ -22,4 +22,3 @@ titre: LOPOS
 - jeux:
     - SuperTuxKart
 
-toto

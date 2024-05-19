@@ -1,12 +1,12 @@
 # paramètre personaliser pour mon site web (local)
 port: 8080
-host: lopos-production
-source: /_site
+host: lopos
 livereload: true
 profile: true
 encoding: utf-8
 incremental: true
-
+Source: ./
+Destination: ./_site
 
 collections:
   authors:

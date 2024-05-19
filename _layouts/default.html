@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <header>
+    {%- include navigation.html -%}
+  </header>
   <head>
     <title>{{ page.titre }}</title>
     <link rel="stylesheet" href="/assets/css/lopos_default.css">
@@ -8,7 +11,6 @@
     <link rel="stylesheet" href="/assets/css/lopos_tableau.css">
   </head>
   <body>
-    {%- include navigation.html -%}
     {{ content }}
   </body>
   <div>
