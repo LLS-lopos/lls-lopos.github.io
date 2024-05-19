@@ -39,3 +39,8 @@ div {
     background-position: bottom;
     background: fixed;
 }
+
+footer {
+    background-color: grey;
+    display: block;
+}

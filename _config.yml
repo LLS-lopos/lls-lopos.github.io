@@ -2,6 +2,7 @@
 port: 8080
 host: lopos
 livereload: true
+watch: true
 profile: true
 encoding: utf-8
 incremental: true
@@ -32,3 +33,6 @@ defaults:
 # pour tout les fichiers à ne pas construire (non-build)
 exclude:
   - README.md
+  - .jekyll-cache/*
+  - .jekyll-metadata
+
