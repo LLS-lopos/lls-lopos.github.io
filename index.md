@@ -5,6 +5,7 @@ titre: LOPOS
 # {{ "Lopos Production" | upcase }}
 
 ## Sujet
+<<<<<<< HEAD
 - Blender:
     + infographie 3D
     + programmation
@@ -21,3 +22,17 @@ titre: LOPOS
     + jeux
 
 ![blender_40_splash.jpg](/assets/images/blender_40_splash.jpg){:.icon2}
+=======
+
+- supertuxkart
+
+![STK](/assets/images/STK.png){:.iconLarge}
+
+- Blender
+
+![blender_40_splash.jpg](/assets/images/blender_40_splash.jpg){:.icon2}
+
+- UPBGE
+
+![splash2.png](/assets/images/splash2.png){:.icon2}
+>>>>>>> main
