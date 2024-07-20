@@ -5,19 +5,14 @@ titre: LOPOS
 
 ## Sujet
 
-- infographie 3D:
-    - Blender
+- supertuxkart
+
+![STK](/assets/images/STK.png){:.iconLarge}
+
+- Blender
 
 ![blender_40_splash.jpg](/assets/images/blender_40_splash.jpg){:.icon2}
 
-- supertuxkart
+- UPBGE
 
-![STK.png](/assets/images/STK.png){:.icon2}
-- programmation:
-    - Python
-    - UPBGE
-    - Blender
-    - SuperTuxKart
-
-- jeux:
-    - SuperTuxKart
+![splash2.png](/assets/images/splash2.png){:.icon2}

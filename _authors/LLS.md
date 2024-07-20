@@ -11,6 +11,7 @@ position: Root
     + modelisation
     + texturation
     + animation
+    + Script Artist
 - électricien (profession)
 - programmeur/codeur (hobbi)
 - gamedev (hobbi):
